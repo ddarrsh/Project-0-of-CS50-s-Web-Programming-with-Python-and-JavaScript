@@ -1,0 +1,84 @@
+.adtext {
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: "Product Sans Thin";
+    font-weight: bold;
+
+}
+.text{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50px 30px;
+}
+
+.tables{
+    font-weight: 10;
+    margin: 30px;
+}
+.thead{
+    font-weight: 1;
+    font-size: 18px;
+    font-family: "Product Sans Thin" ;
+    position: relative;
+    top: -40px;
+
+}
+.thirdcol{
+    padding: 0px 360px;
+    margin-left: 23px;
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    
+}
+
+
+#unique{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0;
+     
+}
+
+
+
+
+
+
+#language{
+    margin-left: -62px; 
+    width: 223%;
+    position: relative; 
+    top: -50px;
+    border-color: #dfe1e5;
+    border-radius: 2px;
+    height: 25px;
+    border: 1px solid #909294;
+    background-color: #dfe1e5;;
+}
+
+#language:hover{
+    border-color: #dfe1e5;
+    box-shadow: 0px 0px 2px 2px #dfe1e5;
+}
+
+.adbutton{
+    height: 30px;
+    width: 130px; 
+    position:relative; 
+    top: 430px; 
+    left: 588px; 
+    background-color: #4d90fe;
+    color: #ffffff;
+    border-width: 0px;
+}
+
+.adbutton:hover{
+    background-color: #2175fc;
+    border-color: #000000;
+    border-width: 1.5px;
+    
+}
+
+
+

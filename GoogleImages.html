@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Images</title>
+        <style>
+            
+    .googleimg{
+    position: relative;
+    top: 275px;
+    left: 825px;
+    }      
+        .searchbar{
+            position: relative;
+            top: 260px;
+            left: 775px;
+            width: 60px;
+        }
+
+        .srch{
+            position: relative;
+            left: -90px;
+            top: 35px;
+            text-indent: 4em;
+            height: 44px;
+            background: #fff;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            width : 550px;
+            max-width: 584px;
+            font-family:'Arial', 'Helvetica', 'sans-serif';
+        }
+
+        .srch:hover{
+            border-color: #dfe1e5;
+            box-shadow: 0px 0px 2px 2px #dfe1e5;
+
+        }
+        .icon{
+            height: 35px;
+            position: relative;
+            left: -85px;
+            top: 46px;
+            z-index: 1;
+        }
+        body{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   
+}
+
+        </style>
+    </head>
+    <body>
+        <img class="googleimg" src="googlelogo_color_272x92dp.png"  alt="googleimage">
+        <a href="GoogleSearch.html" style="position: absolute; left: 1750px;">Google Search</a>
+        <form class="searchbar" action="https://www.google.com/search">
+           
+            <input class="srch" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            <input class="butt" style="position: relative; top: 0px; left: 425px;", type="image" alt="alterimage" src="blue_glass.png" value="Google Search" width=20px; >
+        </form>
+        <p style="position: relative; top: 165px; left: 1040px; color: blue;">
+        images
+        </p>
+
+       
+ 
+    </body>
+</html>
